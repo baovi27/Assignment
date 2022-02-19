@@ -1,8 +1,9 @@
 body{
     width: 100%;
+    height: 250px;
     background-color: #f2efe3;
     margin: auto;
-
+    overflow-x: hidden;
 }
 .chude{
     width: 100%;
@@ -37,7 +38,7 @@ article{
 }
 aside{  
     width:25%;
-    height: 356px;
+    height: 400px;
     background-color: red;
     float: right;
     border-bottom: 1px dotted black;
@@ -101,9 +102,9 @@ input{
     bottom: 240px;
 }
 footer{
+    
     background-color: #92AAc7;
     position: relative;
-    top: 90px;
     width: 100%;
     height: 200px;
     clear: both;
