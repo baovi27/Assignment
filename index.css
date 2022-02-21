@@ -131,12 +131,28 @@ footer>a{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
+u>h3{
+    text-decoration: none;
+    
+}
+.prod>a{
+    color: black;
+}
 .prod{
-    height: 180px;
+    color: black;
+    height: 210px;
     width: 250px;
-    border: 1px solid red;
+    border: 1px solid wheat;
     float: left;
     margin-left: 40px;
+    text-decoration: none;
+}
+.prod:hover{
+    box-shadow: 0 0 10px #C9CCD5;
+}
+.price{
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .prod2{
     height: 70px;
@@ -147,7 +163,6 @@ footer>a{
     right: 5px;
 }
 .prod3{
-
     height: 70px;
     width: 250px;
     float: left;
@@ -157,13 +172,12 @@ footer>a{
     bottom: 18px;
 }
 .prod4{
-
     height: 70px;
     width: 250px;
     float: left;
     margin-left: 40px;
     position: relative;
-    bottom: 70px;
+    bottom: 60px;
     right: 280px;
 }  
 .prod5{
