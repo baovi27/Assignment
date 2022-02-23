@@ -110,18 +110,19 @@ input{
     text-align: center;
     font-size: 20px;
 }
+.address>iframe{
+    bottom: 260px;
+    left: 80px;
+}
 .address>img{
     width: 80px;
     height: 60px;
     position: relative;
-    bottom: 160px;
+    bottom: 170px;
     left: 80px;
-
 }
-.address>iframe{
-    bottom: 260px;
-    left: 80px;
-
+.address>a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .vitri{
     text-align: center;
@@ -129,14 +130,19 @@ input{
     left: 350px;
     bottom: 650px;
 }
+.thanhtoan>p{
+    font-size: 20px;
+}
 .thanhtoan>a{
     text-decoration: none;
     line-height: 30px;
+    position: relative;
+    right: 10px;
 }
 .thanhtoan{
     position: relative;
-    bottom: 490px;
-    left: 200px;
+    bottom: 515px;
+    left: 160px;
 }
 footer{
     background-color: #92AAc7;
@@ -183,13 +189,18 @@ u>h3{
     font-weight: 500;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.prod1{
+    position: relative;
+    bottom: 250px;
+    left: 20px;
+}
 .prod2{
     height: 70px;
     width: 250px;
-    float: left;
     margin-left: 40px;
     position: relative;
-    right: 5px;
+    right: 30px;
+    top: 50px;
 }
 .prod3{
     height: 70px;
@@ -197,8 +208,8 @@ u>h3{
     float: left;
     margin-left: 40px;
     position: relative;
-    right: 100px;
-    bottom: 18px;
+    right: 30px;
+    bottom: 120px;
 }
 .prod4{
     height: 70px;
@@ -206,43 +217,41 @@ u>h3{
     float: left;
     margin-left: 40px;
     position: relative;
-    bottom: 60px;
-    right: 280px;
+    bottom: 330px;
+    right: 60px;
 }  
 .prod5{
     height: 70px;
     width: 250px;
     position: relative;
-    left: 550px;
-    bottom: 130px;
-}   
+    bottom: 380px;
+    left:160px;
+}
 .prod6{
     height: 40px;
     width: 250px;
     position: relative;
-    left: 490px;
-}       
-.prod6{
-    height: 40px;
-    width: 250px;
-    position: relative;
-    left: 490px;
-    bottom: 30px;
+    bottom: 70px;
 }     
 .prod7{
     height: 25px;
     width: 250px;
     position: relative;
-    left: 650px;
-    bottom: 180px;
+    left:   100px;
+    bottom: 260px;
 }        
 .prod8{
     height: 5px;
     width: 250px;
     position: relative;
-    bottom: 90px;
-    left: 120px;
+    bottom: 480px;
+    left:-10px;
 }   
+.prod9{
+    position: relative;
+    bottom: 180px;
+    left: 130px;
+}
 .name{
     color: black;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;

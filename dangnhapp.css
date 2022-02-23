@@ -14,11 +14,12 @@ label{
 .box{
     position: fixed;
     top: 0px;
+    top: 20px;
     width: 100%;
     line-height: 45px;
 }
 form{
-    border-radius: 10px;
+    border-radius: 15px;
     text-align: center;
     background-color: #92AAc7;
     position: relative;
@@ -30,7 +31,7 @@ button{
 }
 .ask{
     position: relative;
-    top: 290px;
+    top: 300px;
     text-align: center;
 }
 
