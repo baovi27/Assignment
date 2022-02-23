@@ -179,7 +179,9 @@ footer>a{
 }
 h3{
     text-decoration: none;
-    line-height: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .prod>a{
     color: black;
