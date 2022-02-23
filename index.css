@@ -64,12 +64,17 @@ aside>a{
     text-align: center;
     text-emphasis: none;
 }
+.hotro>p{
+    font-size: 20px;
+}
 .hotro{
     position: relative;
-    bottom: 290px;
+    bottom: 320px;
 }
 .hotro>a{
     text-decoration: none;
+    position: relative;
+    bottom: 20px;
 }
 .box{
     font-size: 30px;
@@ -128,21 +133,23 @@ input{
     text-align: center;
     position: relative;
     left: 350px;
-    bottom: 650px;
+    bottom: 730px;
 }
 .thanhtoan>p{
     font-size: 20px;
+    line-height: 20px;
 }
 .thanhtoan>a{
     text-decoration: none;
     line-height: 30px;
     position: relative;
     right: 10px;
+    bottom: 10px;
 }
 .thanhtoan{
     position: relative;
-    bottom: 515px;
-    left: 160px;
+    bottom: 555px;
+    left: 190px;
 }
 footer{
     background-color: #92AAc7;
@@ -161,14 +168,18 @@ footer>a{
 }
 .tel{
     position: relative;
-    bottom: 270px;
+    bottom: 290px;
 }
-.tel.lienhe>p{
-    font-size: 500px;
+.lienhe>p{
+    font-size: 20px;
 }
-u>h3{
+.tel>a{
+    position: relative;
+    bottom: 15px;
+}
+h3{
     text-decoration: none;
-    
+    line-height: 30px;
 }
 .prod>a{
     color: black;
